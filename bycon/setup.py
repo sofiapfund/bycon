@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_namespace_packages
 
 def readme():
     with open('README.rst') as f:
@@ -20,11 +20,12 @@ setup(name = 'bycon',
         'Topic :: Scientific/Engineering :: Bio-Informatics'
         ],
     keywords = 'GA4GH Beacon genomics API',
-    packages = ['bycon'],
+    packages = find_namespace_packages(),
     install_requires = [
         'pymongo==3.11.0',
         'PyYAML==5.3.1'
         ],
     python_requires = '>=3.6',
-    include_package_data = True
+    include_package_data = True,
+    zip_safe=False
 )

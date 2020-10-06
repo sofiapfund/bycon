@@ -5,14 +5,15 @@ import re
 from os import path as path
 from sys import path as sys_path
 import argparse
+import sys
 
 # local
 dir_path = path.dirname(path.abspath(__file__))
 sys_path.append(path.join(path.abspath(dir_path), '..'))
-from bycon.parse_variants import *
-from bycon.cgi_utils import *
-from bycon.read_specs import *
-from bycon.cytoband_utils import *
+from lib.parse_variants import *
+from lib.cgi_utils import *
+from lib.read_specs import *
+from lib.cytoband_utils import *
 
 
 """podmd
