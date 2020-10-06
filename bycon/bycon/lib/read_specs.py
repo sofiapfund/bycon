@@ -1,10 +1,7 @@
-import re, yaml
-import json
+import yaml
+
 from pymongo import MongoClient
 from os import path as path
-from os import environ
-
-from .cgi_utils import *
 
 ################################################################################
 

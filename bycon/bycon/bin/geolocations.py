@@ -1,7 +1,6 @@
 #!/usr/local/bin/python3
 
-import cgi, cgitb
-import re, json
+
 import sys, os
 from pymongo import MongoClient
 

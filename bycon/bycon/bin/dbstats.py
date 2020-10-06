@@ -1,10 +1,8 @@
 #!/usr/local/bin/python3
 
-import cgi, cgitb
-import re, json, yaml
+
 from os import path as path
-from os import environ
-import sys, os, datetime
+import sys
 
 # local
 dir_path = path.dirname(path.abspath(__file__))

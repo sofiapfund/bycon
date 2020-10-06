@@ -1,10 +1,9 @@
 #!/usr/local/bin/python3
 
-import cgi, cgitb
-import re, yaml
+
+import re
 from os import path as path
 from sys import path as sys_path
-import csv
 import argparse
 
 # local

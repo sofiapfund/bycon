@@ -1,5 +1,5 @@
-import cgi, cgitb
-import re, yaml
+
+import re
 from pymongo import MongoClient
 from .cgi_utils import *
 

@@ -1,10 +1,9 @@
 #!/usr/local/bin/python3
 
-import cgi, cgitb
-import re, json, yaml
+
+import re
 from os import path as path
-from os import environ
-import sys, os, datetime, argparse
+import sys
 from pymongo import MongoClient
 from operator import itemgetter
 

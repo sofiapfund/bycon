@@ -1,8 +1,6 @@
-import cgi, cgitb
-import re, yaml
-from os import path as path
+
+import re
 from pymongo import MongoClient
-import sys
 
 from .parse_variants import *
 from .geoquery import *
