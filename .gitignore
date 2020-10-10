@@ -9,3 +9,7 @@ data/out/yaml/*.yaml
 rsrc/specification-v2/*git
 rsrc/specification-v2/
 rsrc/icdo/.~lock.ICDOntologies.ods#
+bycon/bycon.egg-info/
+bycon/dist/
+bycon/.eggs/
+bycon/README.rst
